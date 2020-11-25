@@ -1,0 +1,59 @@
+@function pixelToRem($pixel) {
+    @return ($pixel/16) * 1rem;
+}
+
+.landing {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    justify-items: stretch;
+    align-items: center;
+
+    width: 100%;
+    height: 85vh;
+
+    p {
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-weight: 400;
+    }
+
+    .sigil {
+        width: pixelToRem(275);
+        height: auto;
+        max-width: 100%;
+        display: block;
+    }
+
+    div {
+        text-align: right;
+    }
+
+    .contact-icon {
+        height: 1.2em;
+        width: auto;
+        margin: 0.5em 0 0 1.8em;
+    }
+
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        padding: 0 2rem;
+
+        div {
+            text-align: center;
+        }
+
+        .sigil {
+            margin: 2rem;
+        }
+
+        .contact-icon {
+            margin: 0.5em 0.9em 0 0.9em;
+        }
+    }
+}

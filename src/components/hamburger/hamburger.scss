@@ -1,0 +1,82 @@
+$dark-mode: #e6e6e6;
+$light-mode: #262626;
+
+@function pixelToRem($pixel) {
+    @return ($pixel/16) * 1rem;
+}
+
+.hamburger {
+    &[aria-hidden="true"] {
+        display: none;
+    }
+
+    &[aria-hidden="false"] {
+        display: block;
+    }
+
+    background: none;
+    border: none;
+    padding: 0;
+    line-height: 1;
+    width: pixelToRem(40);
+    height: pixelToRem(30);
+    position: relative;
+    transform: rotate(0deg);
+    cursor: pointer;
+
+    .dark-mode {
+        background: $dark-mode;
+    }
+
+    .light-mode {
+        background: $light-mode;
+    }
+
+    span {
+        display: block;
+        position: absolute;
+        height: pixelToRem(6);
+        width: 100%;
+        border-radius: pixelToRem(6);
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+
+        &:nth-child(1) {
+            top: 0;
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+            top: pixelToRem(12);
+        }
+
+        &:nth-child(4) {
+            top: pixelToRem(24);
+        }
+    }
+
+    &.open {
+        span {
+            &:nth-child(1) {
+                top: pixelToRem(12);
+                width: 0%;
+                left: 50%;
+            }
+
+            &:nth-child(2) {
+                transform: rotate(45deg);
+            }
+
+            &:nth-child(3) {
+                transform: rotate(-45deg);
+            }
+
+            &:nth-child(4) {
+                top: pixelToRem(12);
+                width: 0%;
+                left: 50%;
+            }
+        }
+    }
+}

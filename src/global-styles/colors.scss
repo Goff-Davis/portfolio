@@ -1,0 +1,99 @@
+$background-dark-mode: #1A1A1A;
+$background-light-mode: #FFFFFF;
+
+$text-dark-mode: #E6E6E6;
+$text-light-mode: #262626;
+
+$primary-dark-mode: #55AA55;
+$primary-light-mode: #116611;
+
+$link-dark-mode: #B3B3FF;
+$link-light-mode: #0000EE;
+
+$link-visited-dark-mode: #C2A5F3;
+$link-visited-light-mode: #551ABB;
+
+$link-active-dark-mode: #FF8080;
+$link-active-light-mode: #FF0000;
+
+.light-mode-background {
+    background-color: $background-light-mode;
+
+    a {
+        &:link {
+            color: $link-light-mode;
+        }
+
+        &:visited {
+            color: $link-visited-light-mode;
+        }
+
+        &:active {
+            color: $link-active-light-mode;
+        }
+    }
+
+    .unstyled {
+        &:link {
+            color: $text-light-mode;
+        }
+
+        &:visited {
+            color: $text-light-mode;
+        }
+
+        &:active {
+            color: $text-light-mode;
+        }
+    }
+}
+
+.dark-mode-background {
+    background-color: $background-dark-mode;
+
+    a {
+        &:link {
+            color: $link-dark-mode;
+        }
+
+        &:visited {
+            color: $link-visited-dark-mode;
+        }
+
+        &:active {
+            color: $link-active-dark-mode;
+        }
+    }
+
+    .unstyled {
+        &:link {
+            color: $text-dark-mode;
+        }
+
+        &:visited {
+            color: $text-dark-mode;
+        }
+
+        &:active {
+            color: $text-dark-mode;
+        }
+    }
+}
+
+.light-mode-text {
+    color: $text-light-mode;
+    fill: $text-light-mode;
+}
+
+.dark-mode-text {
+    color: $text-dark-mode;
+    fill: $text-dark-mode;
+}
+
+.light-mode-primary {
+    color: $primary-light-mode;
+}
+
+.dark-mode-primary {
+    color: $primary-dark-mode;
+}

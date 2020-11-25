@@ -1,0 +1,54 @@
+main {
+    .flavor-icon {
+        height: 1em;
+        width: auto;
+
+        margin-right: 0.5em;
+    }
+
+    li {
+        margin-bottom: 0.3em;
+    }
+
+    .job-supporting-info {
+        margin-top: 0.3em;
+
+        .flavor-icon {
+            margin-right: 0.2em;
+        }
+
+        p {
+            display: inline-block;
+            margin-right: 2em;
+        }
+    }
+
+    .tech-info {
+        h4 {
+            font-weight: 600;
+            margin-top: 1.5rem;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        h5 {
+            margin: 0;
+            font-weight: 600;
+        }
+    }
+
+    .job-project {
+        margin-top: 1rem;
+    }
+
+    .project-header {
+        margin-top: 1em;
+    }
+}
