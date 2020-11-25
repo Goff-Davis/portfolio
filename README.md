@@ -2,7 +2,7 @@
 
 [![License Type (MIT)](https://img.shields.io/github/license/Goff-Davis/portfolio)](https://github.com/Goff-Davis/portfolio/blob/master/LICENSE.md)
 ![Last Commit](https://img.shields.io/github/last-commit/Goff-Davis/portfolio)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2598d4ad-343a-48cd-b0cf-e6abbd32d0e0/deploy-status)](https://app.netlify.com/sites/davisgoffportfolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c679d873-4fe6-4eaf-83de-eaf276adc642/deploy-status)](https://app.netlify.com/sites/davisgoffportfolio/deploys)
 
 Davis Goff's personal portfolio site. I built this to showcase my skills and to practice working with Gatsby. Think of it as my online résumé. It is also a PWA, but that's not really necessary.
 
