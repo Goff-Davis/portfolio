@@ -59,16 +59,6 @@ const IsGarageAFull = ({ text }) => {
                 <ul>
                     <li>
                         <a
-                            href="https://isgarageafull.com/"
-                            target="_blank"
-                            rel="noreferrer noopener dns-prefetch"
-                        >
-                            <ExternalLink classes={`flavor-icon ${text}`} />
-                            Is Garage A Full? Website
-                        </a>
-                    </li>
-                    <li>
-                        <a
                             href="https://github.com/Goff-Davis/garage-a-checker-frontend"
                             target="_blank"
                             rel="noreferrer noopener dns-prefetch"
