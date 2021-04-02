@@ -1,0 +1,193 @@
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+      url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bbck.woff2)
+          format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113,
+      U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+      url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
+      url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2)
+          format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113,
+      U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"),
+      url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2)
+          format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Code Pro SemiBold"), local("SourceCodePro-SemiBold"),
+      url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_Dvecq_mk.woff2)
+          format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113,
+      U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Code Pro SemiBold"), local("SourceCodePro-SemiBold"),
+      url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_Ds-cq.woff2)
+          format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Source Code Pro Bold"), local("SourceCodePro-Bold"),
+      url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dvecq_mk.woff2)
+          format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113,
+      U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Source Code Pro Bold"), local("SourceCodePro-Bold"),
+      url(https://fonts.gstatic.com/s/sourcecodepro/v11/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Ds-cq.woff2)
+          format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Main */
+
+/* By default dark mode
+
+Desktop/Mobile Header: Source Code Pro Bold (700)
+Desktop/Mobile SubHeader: Source Code Pro Semi-bold (600)
+
+Desktop/Mobile Body: Open Sans Regular (400)
+Mobile Flavor: Open Sans Semi-bold (600)
+*/
+:root {
+  --bg-color: #1a1a1a;
+  --text-color: #262626;
+  --highlight-color: #55aa55;
+  --link-color: #b3b3ff;
+  --link-visited-color: #c2a5f3;
+  --link-active-color: #ff8080;
+
+  --header-font: "Source Code Pro", "Courier New", monospace;
+  --body-font: "Open Sans", "Verdana", sans-serif;
+
+  --header-weight: 700;
+  --subheader-weight: 600;
+
+  --body-weight: 400;
+  --flavor-weight: 600;
+}
+
+.lightMode {
+  --bg-color: #ffffff;
+  --text-color: #262626;
+  --highlight-color: #116611;
+  --link-color: #0000ee;
+  --link-visited-color: #551abb;
+  --link-active-color: #ff0000;
+}
