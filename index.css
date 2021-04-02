@@ -167,7 +167,7 @@ Mobile Flavor: Open Sans Semi-bold (600)
 */
 :root {
   --bg-color: #1a1a1a;
-  --text-color: #262626;
+  --text-color: #E6E6E6;
   --highlight-color: #55aa55;
   --link-color: #b3b3ff;
   --link-visited-color: #c2a5f3;
@@ -190,4 +190,21 @@ Mobile Flavor: Open Sans Semi-bold (600)
   --link-color: #0000ee;
   --link-visited-color: #551abb;
   --link-active-color: #ff0000;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color)
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--link-visited-color);
+}
+
+a:active {
+  color: var(--link-active-color);
 }
