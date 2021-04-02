@@ -232,6 +232,13 @@ a:active {
   color: var(--link-active-color);
 }
 
+.split {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  width: 100%;
+}
+
 /* Nav bar */
 
 nav {
@@ -278,4 +285,50 @@ nav button img {
   height: 2rem;
   width: auto;
   cursor: pointer;
+}
+
+/* Header */
+
+header {
+  height: 90vh;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+h1 {
+  color: var(--highlight-color);
+  font-family: var(--header-font);
+  font-size: var(--header-size);
+  font-weight: var(--header-weight);
+}
+
+header p {
+  font-size: var(--subheader-size);
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+header li {
+  margin-left: 3rem;
+}
+
+header img {
+  width: 275px;
+  height: auto;
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+.link-icon {
+  height: 2rem;
+  width: auto;
 }
