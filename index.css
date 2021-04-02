@@ -332,3 +332,10 @@ header img {
   height: 2rem;
   width: auto;
 }
+
+/* Footer */
+
+footer {
+  text-align: center;
+  font-size: var(--minor-size);
+}
