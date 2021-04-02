@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="sigil-light-mode.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="919"
+     inkscape:window-height="736"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="0.472"
+     inkscape:cx="258.47458"
+     inkscape:cy="250"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <g
+     id="Layer_2"
+     data-name="Layer 2"
+     style="fill:#262626;fill-opacity:1">
+    <g
+       id="Layer_1-2"
+       data-name="Layer 1"
+       style="fill:#262626;fill-opacity:1">
+      <path
+         d="M 250,30 A 220.06,220.06 0 0 1 335.62,452.72 220.06,220.06 0 0 1 164.38,47.28 218.46,218.46 0 0 1 250,30 M 250,0 C 111.93,0 0,111.93 0,250 0,388.07 111.93,500 250,500 388.07,500 500,388.07 500,250 500,111.93 388.07,0 250,0 Z"
+         id="path2"
+         inkscape:connector-curvature="0"
+         style="fill:#262626;fill-opacity:1" />
+      <polygon
+         points="90.9,69.69 69.69,90.9 213.78,235 10,235 10,265 235,265 235,352.5 44,352.5 44,382.5 235,382.5 235,490 265,490 265,382.5 455,382.5 455,352.5 265,352.5 265,265 490,265 490,235 286.22,235 430.31,90.9 409.1,69.69 265,213.78 265,10 235,10 235,213.78 "
+         id="polygon4"
+         style="fill:#262626;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

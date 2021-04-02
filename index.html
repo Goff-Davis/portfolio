@@ -9,11 +9,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <meta name="description" content="The portfolio site of Davis Goff.">
+    <meta name="description" content="The portfolio site of Davis Goff." />
 
-    <link rel="canonical" href="https://davisgoff.com">
+    <link rel="canonical" href="https://davisgoff.com" />
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <script src="index.js"></script>
   </head>
 
@@ -23,25 +23,60 @@
     <nav>
       <ul>
         <li>
-          <a href="#"> About Me </a>
+          <img src="public/id-card.svg" class="nav-icon dark-icon" alt="" />
+          <img
+            src="public/id-card-light-mode.svg"
+            class="nav-icon light-icon"
+            alt=""
+          />
+
+          <a href="#about"> About Me </a>
         </li>
 
         <li>
-          <a href="#"> Work Experience </a>
+          <img src="public/briefcase.svg" class="nav-icon dark-icon" alt="" />
+          <img
+            src="public/briefcase-light-mode.svg"
+            class="nav-icon light-icon"
+            alt=""
+          />
+
+          <a href="#work"> Work Experience </a>
         </li>
 
         <li>
-          <a href="#"> Projects </a>
+          <img src="public/code-slash.svg" class="nav-icon dark-icon" alt="" />
+          <img
+            src="public/code-slash-light-mode.svg"
+            class="nav-icon light-icon"
+            alt=""
+          />
+
+          <a href="#projects"> Projects </a>
         </li>
       </ul>
 
-      <button id="mode-toggle">Toggle light/dark</button>
+      <button id="mode-toggle">
+        <img
+          src="public/contrast.svg"
+          class="dark-icon"
+          alt="Toggle light and dark mode"
+        />
+        <img
+          src="public/contrast-light-mode.svg"
+          class="light-icon"
+          alt="Toggle light and dark mode"
+        />
+      </button>
     </nav>
 
     <header>
       <h1>I&apos;m Davis</h1>
 
       <p>A software engineer</p>
+
+      <img src="public/sigil.svg" alt="" class="dark-icon" />
+      <img src="public/sigil-light-mode.svg" alt="" class="light-icon" />
 
       <a
         href="https://github.com/Goff-Davis"
@@ -71,7 +106,7 @@
     </header>
 
     <main>
-      <section>
+      <section id="about">
         <h2>About Me</h2>
 
         <h3>DESCRIPTION</h3>
@@ -124,7 +159,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="work">
         <h2>Work Experience</h2>
 
         <h3>WEB DEVELOPER (TECHRANGER)</h3>
@@ -327,7 +362,7 @@
         </ul>
       </section>
 
-      <section>
+      <section id="projects">
         <h2>Projects</h2>
 
         <h3>CHIP8-EMU.JS</h3>
