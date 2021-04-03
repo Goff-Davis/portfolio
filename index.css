@@ -333,6 +333,78 @@ header img {
   width: auto;
 }
 
+/* Main */
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: var(--header-font);
+  font-weight: var(--header-size);
+  font-size: var(--header-size);
+}
+
+h3 {
+  text-align: right;
+  color: var(--highlight-color);
+  font-family: var(--header-font);
+  font-size: var(--subheader-size);
+  font-weight: var(--subheader-weight);
+}
+
+section ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+section p {
+  margin-bottom: 0.5rem;
+}
+
+section .split {
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+.flavor-body,
+h4 {
+  font-weight: var(--flavor-weight);
+  font-size: var(--flavor-size);
+}
+
+.job-info-icon {
+  height: var(--body-size);
+  width: auto;
+  display: inline;
+}
+
+.lightMode .dark-icon.job-info-icon,
+.light-icon {
+  display: none;
+}
+
+.lightMode .light-icon.job-info-icon {
+  display: inline;
+}
+
+.job-info-group {
+  margin: 0;
+}
+
+h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  font-size: var(--body-size);
+  font-weight: var(--flavor-weight);
+  margin: 0;
+  margin-top: 1rem;
+}
+
 /* Footer */
 
 footer {
