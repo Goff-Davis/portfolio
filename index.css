@@ -197,6 +197,15 @@ Mobile Flavor: Open Sans Semi-bold (600)
   --minor-size: 1rem;
 }
 
+.lightMode {
+  --bg-color: #ffffff;
+  --text-color: #262626;
+  --highlight-color: #116611;
+  --link-color: #0000ee;
+  --link-visited-color: #551abb;
+  --link-active-color: #ff0000;
+}
+
 noscript {
   text-align: center;
   margin: auto;
@@ -207,8 +216,13 @@ noscript {
   font-weight: var(--subheader-weight);
 }
 
+.lightMode .dark-icon,
 .light-icon {
   display: none;
+}
+
+.lightMode .light-icon {
+  display: block;
 }
 
 * {
@@ -426,8 +440,13 @@ h4 {
   display: inline;
 }
 
+.lightMode .dark-icon.job-info-icon,
 .light-icon {
   display: none;
+}
+
+.lightMode .light-icon.job-info-icon {
+  display: inline;
 }
 
 .job-info-group {
@@ -500,8 +519,42 @@ footer {
     margin-top: 10px;
   }
 
+  .bar1Open {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    top: 16px;
+  }
+
+  .bar2Open {
+    opacity: 0;
+  }
+
+  .bar3Open {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 16px;
+  }
+
   nav ul {
     display: none;
+  }
+
+  .navListOpen {
+    display: block;
+    position: fixed;
+    top: 44px;
+    left: 0;
+    padding: 1rem;
+    background: var(--bg-color);
+    width: 100%;
+  }
+
+  .navListOpen li {
+    margin-bottom: 1rem;
   }
 
   nav button {
@@ -532,6 +585,7 @@ footer {
 
   .sigil img {
     margin: auto;
+    max-width: 100%;
   }
 
   header.split {
