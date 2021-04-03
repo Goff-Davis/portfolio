@@ -2,7 +2,6 @@
 
 <html lang="en" dir="ltr">
   <head>
-
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -50,13 +49,27 @@
 
     <link rel="stylesheet" href="index.css" />
     <script src="index.js"></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-758JXTY5PQ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-758JXTY5PQ");
+    </script>
   </head>
 
   <body>
     <noscript>JavaScript is needed to use some optional features.</noscript>
 
     <nav>
-      <button class="burger" id="js-burger">
+      <button class="burger" id="js-burger" aria-label="Navigation popout">
         <div class="bar1" id="js-bar1"></div>
         <div class="bar2" id="js-bar2"></div>
         <div class="bar3" id="js-bar3"></div>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://davisgoff.com/sitemap.xml
+Sitemap: http://davisgoff.com/sitemap.xml
