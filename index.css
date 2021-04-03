@@ -126,7 +126,7 @@ p {
   margin: 0;
 }
 
-html:focus-within {
+html:focus-within, body {
   scroll-behavior: smooth;
 }
 
