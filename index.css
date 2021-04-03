@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* latin-ext */
 @font-face {
   font-family: "Open Sans";
@@ -106,6 +113,7 @@
 *,
 *::before,
 *::after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -114,11 +122,7 @@ h1,
 h2,
 h3,
 h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+p {
   margin: 0;
 }
 
@@ -132,15 +136,11 @@ body {
   line-height: 1.5;
 }
 
-img,
-picture {
+img {
   display: block;
 }
 
-input,
-button,
-textarea,
-select {
+button {
   font: inherit;
 }
 
@@ -152,8 +152,12 @@ select {
   *,
   *::before,
   *::after {
+    -webkit-animation-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
     animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+    -o-transition-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
@@ -193,25 +197,23 @@ Mobile Flavor: Open Sans Semi-bold (600)
   --minor-size: 1rem;
 }
 
-.lightMode {
-  --bg-color: #ffffff;
-  --text-color: #262626;
-  --highlight-color: #116611;
-  --link-color: #0000ee;
-  --link-visited-color: #551abb;
-  --link-active-color: #ff0000;
+noscript {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  font-size: var(--subheader-size);
+  font-weight: var(--subheader-weight);
 }
 
-.lightMode .dark-icon,
 .light-icon {
   display: none;
 }
 
-.lightMode .light-icon {
-  display: block;
-}
-
 * {
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
   transition: 0.1s;
 }
 
@@ -236,8 +238,12 @@ a:active {
 }
 
 .split {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 2rem 1fr;
   grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 2rem;
+  -moz-column-gap: 2rem;
   column-gap: 2rem;
   width: 100%;
 }
@@ -245,7 +251,11 @@ a:active {
 /* Nav bar */
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0 1rem;
   position: fixed;
@@ -274,12 +284,18 @@ nav a:focus {
 nav ul {
   list-style: none;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 nav li {
   margin: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
   align-items: baseline;
 }
 
@@ -307,9 +323,18 @@ header {
 }
 
 header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
 }
 
@@ -327,6 +352,8 @@ header p {
 header ul {
   list-style: none;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -337,6 +364,7 @@ header li {
 header img {
   width: 275px;
   height: auto;
+  -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
@@ -398,13 +426,8 @@ h4 {
   display: inline;
 }
 
-.lightMode .dark-icon.job-info-icon,
 .light-icon {
   display: none;
-}
-
-.lightMode .light-icon.job-info-icon {
-  display: inline;
 }
 
 .job-info-group {
@@ -446,16 +469,22 @@ footer {
 
   .burger {
     display: block;
+    height: -webkit-min-content;
+    height: -moz-min-content;
     height: min-content;
     cursor: pointer;
   }
 
-  .bar1, .bar2, .bar3 {
+  .bar1,
+  .bar2,
+  .bar3 {
     width: 44px;
     height: 6px;
     border: none;
     border-radius: 4px;
     background: var(--text-color);
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
 
@@ -471,38 +500,8 @@ footer {
     margin-top: 10px;
   }
 
-  .bar1Open {
-    transform: rotate(45deg);
-    position: relative;
-    top: 16px;
-  }
-
-  .bar2Open {
-    opacity: 0;
-  }
-
-  .bar3Open {
-    transform: rotate(-45deg);
-    position: relative;
-    bottom: 16px;
-  }
-
   nav ul {
     display: none;
-  }
-
-  .navListOpen {
-    display: block;
-    position: fixed;
-    top: 44px;
-    left: 0;
-    padding: 1rem;
-    background: var(--bg-color);
-    width: 100%;
-  }
-
-  .navListOpen li {
-    margin-bottom: 1rem;
   }
 
   nav button {
@@ -516,7 +515,10 @@ footer {
 
   /* Header */
 
-  header div, .sigil {
+  header div,
+  .sigil {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -533,9 +535,18 @@ footer {
   }
 
   header.split {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -546,7 +557,8 @@ footer {
     padding: 0 2rem;
   }
 
-  h2, h3 {
+  h2,
+  h3 {
     text-align: left;
   }
 }
