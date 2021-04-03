@@ -244,6 +244,12 @@ a:active {
 nav {
   display: flex;
   justify-content: space-between;
+  padding: 0 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-color);
 }
 
 nav a,
