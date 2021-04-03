@@ -126,7 +126,7 @@ p {
   margin: 0;
 }
 
-html:focus-within, body {
+html {
   scroll-behavior: smooth;
 }
 
@@ -145,7 +145,7 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html:focus-within {
+  html {
     scroll-behavior: auto;
   }
 
