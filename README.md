@@ -9,10 +9,9 @@ Davis Goff's personal portfolio site. I built this to showcase my skills. Think 
 
 ## Built With
 
--   [Gatsby](https://www.gatsbyjs.com/) - The JavaScript framework.
--   [SASS/SCSS](https://sass-lang.com/) - The CSS framework.
--   [Netlify](https://www.netlify.com/) - The hosting platform.
--   [Figma](https://www.figma.com) - The design tool.
+- Vanilla HTML CSS and JS
+- [Netlify](https://www.netlify.com/) - The hosting platform.
+- [Figma](https://www.figma.com) - The design tool.
 
 ## Contributing
 
